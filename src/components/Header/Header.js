@@ -2,7 +2,7 @@ import React from 'react';
 import profile from '../../assets/img/profile.jpg';
 const Header = () => {
 	return (
-		<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="sideNav">
 			<a class="navbar-brand js-scroll-trigger" href="#page-top">
 				<span class="d-block d-lg-none">Clarence Taylor</span>
 				<span class="d-none d-lg-block">
@@ -24,7 +24,17 @@ const Header = () => {
 				<ul class="navbar-nav">
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#about">
-							About
+							About Me
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#skills">
+							Skills
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#projects">
+							Projects
 						</a>
 					</li>
 					<li class="nav-item">
@@ -38,13 +48,13 @@ const Header = () => {
 						</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="#skills">
-							Skills
+						<a class="nav-link js-scroll-trigger" href="#blogs">
+							Blogs
 						</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="#projects">
-							Projects
+						<a class="nav-link js-scroll-trigger" href="#contact">
+							Contact Me
 						</a>
 					</li>
 				</ul>

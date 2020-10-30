@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faMapMarker } from '@fortawesome/free-solid-svg-icons';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 const About = () => {
 	return (
@@ -11,8 +11,7 @@ const About = () => {
 					<span class="text-primary">Chowdhury</span>
 				</h1>
 				<div class="subheading mb-5">
-					<FontAwesomeIcon icon={faMapMarker} />
-					<p>Paterson, NJ 07502</p> <a href="mailto:chowdhurysaniyad@gmail.com">chowdhurysaniyad@gmail.com</a>
+					Paterson, NJ 07502 · (862) 287-4496 ·<a href="mailto:chowdhurysaniyad@gmail.com">chowdhurysaniyad@gmail.com</a>
 				</div>
 				<p class="lead mb-5">
 					I am a highly-skilled full-stack developer with a passion for the front-end. I currently use JavaScript, React JS, NodeJS, and MongoDB to
